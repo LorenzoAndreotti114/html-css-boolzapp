@@ -8,9 +8,13 @@
         width: 100%;
     }
 
+    .f-text-msg {
+        font-size: 3vw;
+    }
+
     /* LEFT */
     .container-left {
-        width: 10%;
+        width: 14%;
     }
 
     .left-header {
@@ -51,6 +55,18 @@
 
     /* RIGHT */
 
+    h2 {
+        font-size: 4vw;
+    }
+
+    .f-text {
+        font-size: 2vw;
+    }
+
+    .f-text-big {
+        font-size: 2vw;
+    }
+
     .container-right {
         width: 90%;
     }
@@ -67,6 +83,10 @@
         width: 20%;
     }
 
+    .right-header-menu i {
+        font-size: 3.5vw;
+    }
+
     .right-header-info {
         width: 65%;
     }
@@ -80,11 +100,37 @@
     .right-text-menu {
         height: 10%;
     }
+
+    .emoji i {
+        font-size: 3.5vw;
+    }
+
+    .vocal i {
+        font-size: 3.5vw;
+    }
+
 }
 
 
 /* MOBILE */
 @media screen and (max-width: 481px) {
+
+
+h2 {
+    font-size: 6vw;
+}
+
+.f-text-big {
+    font-size: 4vw;
+}
+
+.f-text {
+    font-size: 3vw;
+}
+
+.f-text-msg {
+    font-size: 4vw;
+}
 
 .container-left {
     display: none;
@@ -106,17 +152,31 @@
     display: none;
 }
 
+.msg-right-menu {
+    width: 25%;
+}
+
+.msg-left-menu {
+    width: 25%;
+}
+
 .emoji {
     display: none;
 }
 
 .msg-text {
     width: 100%;
+    padding: 1%;
 }
 
 .vocal {
     display: none;
 }
+
+.hover-menu {
+    width: 50%;
+}
+
 
 }
 
